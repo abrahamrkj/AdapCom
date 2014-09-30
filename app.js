@@ -33,7 +33,7 @@ include('hybris-endpoint/hybris-response.js');
 
 /* MongoDB Connection */
 
-var databaseUrl = "ikartdbuser:ikartdbuser@localhost/ikart"; 
+var databaseUrl = "ab:ab@localhost/ikart"; 
 var collections = ["users", "productmapping"]
 var db = require("mongojs").connect(databaseUrl, collections);
 
