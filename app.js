@@ -213,7 +213,7 @@ app.get('/addProductWithRFID', function(req, res) {
 /* Mapping for default request */
 
 app.get('/', function(req, res) {
-    res.send("iKart service running "+'['+userIp+']');
+    res.send("iKart service running @ Google Cloud");
     res.end();
 });
 
