@@ -217,7 +217,7 @@ app.get('/', function(req, res) {
     res.end();
 });
 
-server.listen(nconf.get('httpPort'));
+server.listen(8080);
 httpsServer.listen(443);
 logger.debug('Server Initiated ');
 logger.debug('HTTP Server Initiated on port: '+nconf.get('httpPort')+''+'['+userIp+']');
