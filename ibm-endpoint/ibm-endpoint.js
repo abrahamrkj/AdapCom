@@ -1,6 +1,6 @@
 //IBM Web Commerce
-var endPointURL = "https://192.168.2.156/wcs/resources/store/10101/";
-var IMGURL = "192.168.2.156";
+var endPointURL = "https://commercedemo02.avnet.com/wcs/resources/store/10101/";
+var IMGURL = "commercedemo02.avnet.com";
 //var endPointURL = "http://127.0.0.1/service/";
 
 /* IBM WebCommerce REST methods */
